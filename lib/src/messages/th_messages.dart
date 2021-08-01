@@ -13,11 +13,11 @@ class ThMessages implements LookupMessages {
   @override
   String lessThanOneMinute(int seconds) => 'เมื่อครู่นี้';
   @override
-  String aboutAMinute(int minutes) => 'ประมาณ 1 นาที';
+  String aboutAMinute(int minutes) => '1 นาที';
   @override
   String minutes(int minutes) => '$minutes นาที';
   @override
-  String aboutAnHour(int minutes) => 'ประมาณ 1 ชั่วโมง';
+  String aboutAnHour(int minutes) => '1 ชั่วโมง';
   @override
   String hours(int hours) => '$hours ชั่วโมง';
   @override
@@ -25,11 +25,11 @@ class ThMessages implements LookupMessages {
   @override
   String days(int days) => '$days วัน';
   @override
-  String aboutAMonth(int days) => 'ประมาณ 1 เดือน';
+  String aboutAMonth(int days) => '1 เดือน';
   @override
   String months(int months) => '$months เดือน';
   @override
-  String aboutAYear(int year) => 'ประมาณ 1 ปี';
+  String aboutAYear(int year) => '1 ปี';
   @override
   String years(int years) => '$years ปี';
   @override
